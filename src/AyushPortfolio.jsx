@@ -20,6 +20,7 @@ const GithubIcon = ({ size = 18 }) => (
 const DATA = {
   name: "Ayush Sharma",
   location: "India",
+  CV: "./CV.pdf",
   email: "ayushsharma@email.com",
   github: "https://github.com/iayushsharma05",
   linkedin: "https://www.linkedin.com/in/iayushsharma05/",
@@ -416,7 +417,7 @@ function Hero({ t, dark }) {
               <a href="#projects" className="btn-primary" style={{ display: "inline-flex", alignItems: "center", gap: 7, padding: isMobile ? "10px 20px" : "13px 26px", borderRadius: 10, fontSize: 14, fontWeight: 600, textDecoration: "none" }}>
                 View Projects <FiArrowRight size={15} />
               </a>
-              <a href="#" style={{ display: "inline-flex", alignItems: "center", gap: 7, padding: isMobile ? "9px 18px" : "12px 24px", borderRadius: 10, fontSize: 14, fontWeight: 600, textDecoration: "none", color: t.text, border: `1.5px solid ${t.border}`, transition: "all 0.3s" }}
+              <a href={DATA.CV} style={{ display: "inline-flex", alignItems: "center", gap: 7, padding: isMobile ? "9px 18px" : "12px 24px", borderRadius: 10, fontSize: 14, fontWeight: 600, textDecoration: "none", color: t.text, border: `1.5px solid ${t.border}`, transition: "all 0.3s" }}
                 onMouseEnter={e => { e.currentTarget.style.borderColor = "#3b82f6"; e.currentTarget.style.color = "#3b82f6"; }}
                 onMouseLeave={e => { e.currentTarget.style.borderColor = t.border; e.currentTarget.style.color = t.text; }}>
                 <FiDownload size={15} /> Download CV
