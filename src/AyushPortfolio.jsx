@@ -91,7 +91,7 @@ const DATA = {
       emoji: "🎓",
       category: "Fullstack",
       desc: "Comprehensive CMS with role-based authentication for admin, staff, and students. Features include attendance tracking, fee management, and exam result portals.",
-      tech: ["React", "Node.js", "MongoDB", "JWT", "Express", "Tailwind"],
+      tech: ["React", "Node.js", "MongoDB", "JWT", "Express", "Tailwind","Vercel","Render"],
       github: "https://github.com/iayushsharma05/",
       live: "https://ayushprojectcollege.vercel.app/",
       featured: true,
