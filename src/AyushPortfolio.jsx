@@ -20,7 +20,7 @@ const GithubIcon = ({ size = 18 }) => (
 const DATA = {
   name: "Ayush Sharma",
   location: "India",
-  CV: "./CV.pdf",
+  CV: "https://drive.google.com/file/d/16UaBcKgKibbpd1MlGuFpRKvfdhnFVZ7H/view?usp=drive_link",
   email: "ayushsharma@email.com",
   github: "https://github.com/iayushsharma05",
   linkedin: "https://www.linkedin.com/in/iayushsharma05/",
