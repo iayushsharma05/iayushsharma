@@ -20,8 +20,8 @@ const GithubIcon = ({ size = 18 }) => (
 const DATA = {
   name: "Ayush Sharma",
   location: "India",
-  CV: "https://drive.google.com/file/d/16UaBcKgKibbpd1MlGuFpRKvfdhnFVZ7H/view?usp=drive_link",
-  email: "ayushsharma@email.com",
+  CV: "https://drive.google.com/file/d/13sYj_7_VtIwVf93fRb_kG871E31Xhr4M/view?usp=sharing",
+  email: "iayushsharma05@email.com",
   github: "https://github.com/iayushsharma05",
   linkedin: "https://www.linkedin.com/in/iayushsharma05/",
   bio: "I am a BCA Student passionate Full Stack Developer specializing in the MERN stack. I build real-world applications with features like authentication systems, dashboards, and email integrations. I actively share my work on GitHub and engage professionally on LinkedIn.",
