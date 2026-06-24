@@ -82,7 +82,8 @@ const DATA = {
     { year: "2023", title: "MySQL", desc: "Learning Database Management System.", icon: "🔨" },
     { year: "2023", title: "C/C++", desc: "Learnt C/C++ from College.", icon: "🔨" },
     { year: "2024", title: "MERN Projects", desc: "Developed Invoice Generator and College Management System. Learned email integrations and dashboard analytics.", icon: "🔨" },
-    { year: "2026", title: "Advanced MERN Applications", desc: "Built complex role-based systems, REST APIs, and integrated third-party services. Active on GitHub.", icon: "🏆" },
+    { year: "2026", title: "Advanced MERN Applications", desc: "Built complex role-based systems, REST APIs, and integrated third-party services. Active on GitHub.", icon: "🔨" },
+    { year: "2026", title: "Computer Teacher ", desc: "Teaching Computer Science and Programming to students at NICT Sector-15 Chandigarh", icon: "🏆" },
   ],
 };
 
@@ -309,7 +310,7 @@ function Navbar({ dark, setDark, t, activeSection }) {
         display: "flex", alignItems: "center", justifyContent: "space-between",
       }}>
         <a href="#home" style={{ fontFamily: "'Syne',sans-serif", fontWeight: 800, fontSize: isMobile ? 18 : 22, color: t.text, textDecoration: "none" }}>
-          Ayush<span style={{ background: "linear-gradient(135deg,#3b82f6,#06b6d4)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>.dev</span>
+          iayush<span style={{ background: "linear-gradient(135deg,#3b82f6,#06b6d4)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>sharma</span>05
         </a>
 
         {!isMobile && (
@@ -784,13 +785,13 @@ function Contact({ t }) {
               <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 15 }}>
                 <div>
                   <label style={{ display: "block", fontSize: 11, fontWeight: 600, color: t.muted, marginBottom: 6, textTransform: "uppercase", letterSpacing: 0.8 }}>Your Name</label>
-                  <input value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} required placeholder="John Doe" style={inputStyle}
+                  <input value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} required placeholder="Enter Your Name" style={inputStyle}
                     onFocus={e => e.target.style.borderColor = "#3b82f6"}
                     onBlur={e => e.target.style.borderColor = t.border} />
                 </div>
                 <div>
                   <label style={{ display: "block", fontSize: 11, fontWeight: 600, color: t.muted, marginBottom: 6, textTransform: "uppercase", letterSpacing: 0.8 }}>Email Address</label>
-                  <input type="email" value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} required placeholder="john@example.com" style={inputStyle}
+                  <input type="email" value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} required placeholder="Enter Your Email" style={inputStyle}
                     onFocus={e => e.target.style.borderColor = "#3b82f6"}
                     onBlur={e => e.target.style.borderColor = t.border} />
                 </div>
